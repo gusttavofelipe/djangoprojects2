@@ -1,3 +1,8 @@
 {% extends 'base.html' %}
-
-{% block conteudo %} INDEX {%endblock%}
+{% load static %}
+{% block conteudo %} 
+<p>INDEX</p>
+<p>
+    <img src="{% static '/img/gifpy.gif'%}" style="width:500px; heigth:auto">
+</p>
+{%endblock%}
